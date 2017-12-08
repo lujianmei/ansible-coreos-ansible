@@ -25,7 +25,7 @@ The repository where pypy is hosted limits the number or parallel downloads. Tha
   gather_facts: False
   serial: 1
   roles:
-    - deimosfr.coreos-ansible
+    - lu.coreos-ansible
 ```
 
 On the hosts file, add vars:
@@ -49,4 +49,4 @@ GPLv3
 Author Information
 ------------------
 
-Pierre Mavro / deimosfr
+Pierre Mavro / lu

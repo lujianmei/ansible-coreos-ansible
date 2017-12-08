@@ -1,4 +1,5 @@
 ---
+# - include: main.yml
 
 - name: check if pypy is locally downloaded
   raw: "stat {{coreos_ansible_role_path}}/files/pypy.tar.bz2"
